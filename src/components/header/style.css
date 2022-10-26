@@ -1,0 +1,14 @@
+header {
+  background-color: cornflowerblue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+header ul {
+  padding: 0;
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}

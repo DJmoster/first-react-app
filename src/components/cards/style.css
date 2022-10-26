@@ -1,0 +1,9 @@
+.cards-block {
+  padding-top: 5vh;
+  margin: auto;
+  gap: 5%;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}

@@ -12,13 +12,31 @@ header > div {
     margin-left: 15vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 45vw;
 }
 
 header > div > h4 {
+    padding-top: 15px;
+    margin: auto;
     color: #C0BAB6;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     text-transform: uppercase;
+}
+
+.menu {
+    margin-top: 19px !important;
+    border-radius: 0 !important;
+    background-color: black !important;
+}
+
+.item {
+    color: white !important;
+    transition: 0.2s !important;
+}
+
+.item:hover {
+    background-color: #ff9900 !important;
 }
